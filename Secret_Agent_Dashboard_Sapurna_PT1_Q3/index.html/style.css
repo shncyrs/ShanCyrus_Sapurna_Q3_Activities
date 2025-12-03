@@ -1,0 +1,44 @@
+body {
+background-color: #1a1a1a;
+color: #00ff00; /* Hacker Green */
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+margin: 0;
+padding: 20px;
+}
+.container {
+max-width: 600px;
+margin: 0 auto;
+}
+#agent-profile {
+border: 2px dashed #00ff00;
+padding: 20px;
+margin: 20px auto;
+background-color: #000;
+border-radius: 10px;
+}
+img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 3px solid #555;
+object-fit: cover;
+}
+button {
+background-color: #333;
+color: #fff;
+border: 1px solid #fff;
+padding: 10px 15px;
+margin: 5px;
+cursor: pointer;
+font-family: inherit;
+}
+button:hover {
+background-color: #555;
+}
+input {
+padding: 10px;
+background-color: #000;
+color: #00ff00;
+border: 1px solid #00ff00;
+}
